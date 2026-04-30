@@ -6,6 +6,8 @@ Name of task:maths
 let username ="papyrusknighttruther" ;
 let year="2026";
 let age="15";
+let birthYear;
+let halfMoney;
 /*****************************
  Main code
  ****************************/
