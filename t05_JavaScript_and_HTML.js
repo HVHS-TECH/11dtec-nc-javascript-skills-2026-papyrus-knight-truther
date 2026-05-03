@@ -2,7 +2,7 @@
 Name of task:javascript and html
 ****************************/
 
-
+console.log("running t05_avascripts")
 
 //variables
 let username ="papyrusknighttruther" ;
