@@ -2,7 +2,7 @@
 Name of task:javascript and html
 ****************************/
 
-console.log("running t05_avascripts")
+console.log("running t05_avascriptsandhtml")
 
 //variables
 let username ="papyrusknighttruther" ;
@@ -15,6 +15,7 @@ let halfMoney= money / 2;
 /*****************************
  Main code
  ****************************/
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 console.log("Hi " + username + " as of " + year + " you are " + age + " years old")
 console.log("You were born in " + birthYear )
 console.log("In 10 years you will be " + (age + 10) + " years old")
