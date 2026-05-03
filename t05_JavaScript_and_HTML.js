@@ -1,6 +1,8 @@
 /****************************
-Name of task:maths
+Name of task:javascript and html
 ****************************/
+
+
 
 //variables
 let username ="papyrusknighttruther" ;
