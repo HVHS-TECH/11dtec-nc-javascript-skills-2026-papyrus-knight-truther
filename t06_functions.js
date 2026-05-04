@@ -25,6 +25,10 @@ OUTPUT.innerHTML += ("You spend half of your money, now you have " + halfMoney)
 OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dollars") 
  }
 
+ function imag(){
+    OUTPUT.innerHTML = ""
+ }
+
 /*****************************
  Main code
  ****************************/
