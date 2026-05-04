@@ -12,6 +12,13 @@ let money=10;
 let birthYear= year - age;
 let halfMoney= money / 2;
 
+/**************************
+  Functions
+  *************************/
+ function writeline(){
+  OUTPUT.
+ }
+
 /*****************************
  Main code
  ****************************/
@@ -26,6 +33,4 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dol
 
 
 
- /**************************
-  Functions
-  *************************/
+ 
