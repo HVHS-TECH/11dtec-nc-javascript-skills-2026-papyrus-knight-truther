@@ -26,7 +26,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dol
  }
 
  function imag(){
-    OUTPUT.innerHTML += "<img src='demonCore.jpg'> </img>"
+    OUTPUT.innerHTML += "<img src=demonCore.jpg> </img>"
  }
 
 /*****************************
