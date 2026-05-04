@@ -16,7 +16,7 @@ let halfMoney= money / 2;
   Functions
   *************************/
  function writeLine(){
-  OUTPUT.innetHTML += "<p>woah what the... it's a function!</p>";
+  OUTPUT.innerHTML += "<p>woah what the... it's a function!</p>";
  }
 
 /*****************************
