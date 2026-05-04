@@ -16,7 +16,7 @@ let halfMoney= money / 2;
   Functions
   *************************/
  function writeLine(){
-OUTPUT.innerHTML = "<h2>Woah javascript exists guys</h2>";
+OUTPUT.innerHTML = "<h2>WOAH ITS A FUNCTION </h2>";
 OUTPUT.innerHTML += ("Hi " + username + " as of " + year + " you are " + age + " years old.")
 OUTPUT.innerHTML += (" You were born in " + birthYear )
 OUTPUT.innerHTML += ("In 10 years you will be " + (age + 10) + " years old. ")
