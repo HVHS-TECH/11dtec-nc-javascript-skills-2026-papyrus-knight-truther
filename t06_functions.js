@@ -15,14 +15,15 @@ let halfMoney= money / 2;
 /**************************
   Functions
   *************************/
- function writeline(){
-  OUTPUT.
+ function writeLine(){
+  OUTPUT.innetHTML += "<p>woah what the... it's a function!</p>";
  }
 
 /*****************************
  Main code
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+writeLine()
 OUTPUT.innerHTML = "<h2>Woah javascript exists guys</h2>";
 OUTPUT.innerHTML += ("Hi " + username + " as of " + year + " you are " + age + " years old.")
 OUTPUT.innerHTML += (" You were born in " + birthYear )
