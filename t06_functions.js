@@ -26,7 +26,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dol
  }
 
  function imag(){
-    OUTPUT.innerHTML += "<img sr"
+    OUTPUT.innerHTML += "<img src='demonCore.jpg'> </img>"
  }
 
 /*****************************
@@ -34,6 +34,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dol
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 writeLine()
+imag()
 
 
 
