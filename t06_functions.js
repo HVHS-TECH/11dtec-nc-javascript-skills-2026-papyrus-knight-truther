@@ -30,13 +30,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dol
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 writeLine()
-OUTPUT.innerHTML = "<h2>Woah javascript exists guys</h2>";
-OUTPUT.innerHTML += ("Hi " + username + " as of " + year + " you are " + age + " years old.")
-OUTPUT.innerHTML += (" You were born in " + birthYear )
-OUTPUT.innerHTML += ("In 10 years you will be " + (age + 10) + " years old. ")
-OUTPUT.innerHTML += ("You have " + money + " dollars. ")
-OUTPUT.innerHTML += ("You spend half of your money, now you have " + halfMoney)
-OUTPUT.innerHTML += (" Then you get $3, now you have " + (halfMoney + 3) + " dollars") 
+
 
 
 
