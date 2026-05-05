@@ -27,13 +27,17 @@ OUTPUT.innerHTML += ("You spend half of your money, now you have " + _halfMoney)
 OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " dollars") 
  }
 
+ function start(){
+    OUTPUT.innerHTML += ("Button did button thing")
+ }
+
 
 /*****************************
  Main code
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-<button onclick="writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);">start</button>
-
+<button onClick="start()"> start </button>
+writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
 
 
 
