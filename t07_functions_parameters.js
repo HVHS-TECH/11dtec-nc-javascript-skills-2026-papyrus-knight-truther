@@ -5,14 +5,14 @@ Name of task:functions
 console.log("running t05_avascriptsandhtml")
 
 //variables
-/*
+
 let username ="papyrusknighttruther" ;
 let year=2025;
 let age=15;
 let money=10;
 let birthYear= year - age;
 let halfMoney= money / 2;
-*/
+
 
 /**************************
   Functions
