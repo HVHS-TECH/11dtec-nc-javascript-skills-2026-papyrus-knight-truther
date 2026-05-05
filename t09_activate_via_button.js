@@ -36,7 +36,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
  Main code
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-<button onClick="start()"> start </button>
+
 writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
 
 
