@@ -28,7 +28,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
  }
 
  function start(){
-    OUTPUT.innerHTML += ("Button did button thing")
+    OUTPUT.innerHTML += ("Button did button thing ")
  }
 
 
