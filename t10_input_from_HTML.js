@@ -42,7 +42,7 @@ OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
 function start(){
-    OUTPUT.innerHTML += (writeLine(nameFeild.value, 2025, 15, 10, year - age, money / 2))
+    OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
  }
 
 writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
