@@ -6,7 +6,7 @@ console.log("running t05_avascriptsandhtml")
 
 //variables
 
-let username = NAME_FIELD.value;
+let username = nameField.value;
 let year=2025;
 let age=15;
 let money=10;
@@ -38,8 +38,8 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 function getFormInput(){
-const NAME_FIELD = document.getElementById("nameFeild")
-let username = NAME_FIELD.value;
+const nameField = document.getElementById("nameFeild")
+let username = nameField.value;
 OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
