@@ -6,7 +6,7 @@ console.log("running t05_avascriptsandhtml")
 
 //variables
 
-let username ="papyrusknighttruther" ;
+let username = NAME_FIELD.value;
 let year=2025;
 let age=15;
 let money=10;
@@ -36,6 +36,9 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
  Main code
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+const NAME_FIELD = document.getElementById("nameFeild")
+
+
 
 writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
 
