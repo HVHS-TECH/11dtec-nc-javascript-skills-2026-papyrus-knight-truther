@@ -41,10 +41,20 @@ let username = nameField.value;
 OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+function getFormInput(){
+const AGE_FIELD = document.getElementById("ageField")
+let age = ageField.value;
+OUTPUT.innerHTML = "<p>Your age is "+ age +"</p>";
+}
+
 function start(){
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
     OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
+const AGE_FIELD = document.getElementById("ageField")
+let age = ageField.value;
+    OUTPUT.innerHTML += ("<p>you are "+ age +"</p>")
  }
 
 writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
