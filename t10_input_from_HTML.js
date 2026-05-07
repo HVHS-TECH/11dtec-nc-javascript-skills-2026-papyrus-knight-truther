@@ -36,7 +36,7 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 function getFormInput(){
-const nameField = document.getElementById("nameFeild")
+const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
 OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
