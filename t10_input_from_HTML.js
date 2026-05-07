@@ -42,6 +42,8 @@ OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
 function start(){
+const NAME_FIELD = document.getElementById("nameField")
+let username = nameField.value;
     OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
  }
 
