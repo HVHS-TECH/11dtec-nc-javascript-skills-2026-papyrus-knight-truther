@@ -35,10 +35,11 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
 /*****************************
  Main code
  ****************************/
-let username = NAME_FIELD.value;
+
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameFeild")
+let username = NAME_FIELD.value;
 OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
