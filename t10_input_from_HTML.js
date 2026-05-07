@@ -27,9 +27,7 @@ OUTPUT.innerHTML += ("You spend half of your money, now you have " + _halfMoney)
 OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " dollars") 
  }
 
- function start(){
-    OUTPUT.innerHTML += ("Button did button thing ")
- }
+ 
 
 
 /*****************************
@@ -43,7 +41,9 @@ let username = nameField.value;
 OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
-
+function start(){
+    OUTPUT.innerHTML += (writeLine(nameFeild.value, 2025, 15, 10, year - age, money / 2))
+ }
 
 writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
 
