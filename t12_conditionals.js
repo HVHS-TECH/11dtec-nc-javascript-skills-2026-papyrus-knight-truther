@@ -51,7 +51,7 @@ let age = ageField.value;
     OUTPUT.innerHTML += ("<p>You are "+ age +"</p>")
  }
 
-writeLine('papyrusknighttruther', 2025, 15, 10, year - age, money / 2);
+writeLine('papyrusknighttruther');
 
 
 
