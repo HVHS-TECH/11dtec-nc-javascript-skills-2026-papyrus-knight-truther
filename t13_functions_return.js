@@ -20,11 +20,12 @@ let _hours=20;
  function calculatePay(){
  let pay =  _hours * 18.50;
  pay = (pay * 0.105); //taxes :(
- return pay;let weeklyPay = calculatePay;
+ return pay;
+ let _weeklyPay = Pay;
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>Your weekly pay is" weeklyPay "</h2>";
+OUTPUT.innerHTML += "<h2>Your weekly pay is" _weeklyPay "</h2>";
  }
 
 
