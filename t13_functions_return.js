@@ -16,14 +16,15 @@ let _hours=20;
 /**************************
   Functions
   *************************/
- function writeLine(){
-OUTPUT.innerHTML += "<h2>WOAH ITS A FUNCTION </h2>";
- }
 
  function calculatePay(){
  let pay =  _hours * 18.50;
  pay = (pay * 0.105); //taxes :(
  return pay;
+ }
+
+ function writeLine(){
+OUTPUT.innerHTML += "<h2>Your weekly pay is" weeklyPay "</h2>";
  }
 
 
@@ -52,9 +53,12 @@ let age = ageField.value;
     OUTPUT.innerHTML += ("<p>You are "+ age +"</p>")
  }
 
+ let weeklyPay = calculatePay;
+
+
 calculatePay();
 
-writeLine('papyrusknighttruther');
+writeLine('');
 
 
 
