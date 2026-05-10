@@ -18,7 +18,7 @@ let halfMoney= money / 2;
   Functions
   *************************/
  function writeLine(){
-OUTPUT.innerHTML = "<h2>WOAH ITS A FUNCTION </h2>";
+OUTPUT.innerHTML += "<h2>WOAH ITS A FUNCTION </h2>";
  }
 
  
