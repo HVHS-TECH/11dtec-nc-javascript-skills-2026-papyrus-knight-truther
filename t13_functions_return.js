@@ -21,7 +21,6 @@ let _hours=20;
  let pay =  _hours * 18.50;
  pay = (pay * 0.105); //taxes :(
  return pay;
- let _weeklyPay = Pay;
  }
 
  function writeLine(){
@@ -57,9 +56,9 @@ let age = ageField.value;
  
 
 
-calculatePay(_weeklyPay);
+calculatePay(pay, _hours);
 
-writeLine(_weeklyPay);
+writeLine(pay);
 
 
 
