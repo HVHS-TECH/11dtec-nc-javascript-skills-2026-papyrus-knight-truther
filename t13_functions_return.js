@@ -9,9 +9,8 @@ console.log("running t13_functions returns")
 let username = nameField.value;
 let year=2025;
 let age= ageField.value;
-let money=10;
-let birthYear= year - age;
-let halfMoney= money / 2;
+let _hours=20;
+
 
 
 /**************************
@@ -21,7 +20,11 @@ let halfMoney= money / 2;
 OUTPUT.innerHTML += "<h2>WOAH ITS A FUNCTION </h2>";
  }
 
- 
+ function calculatePay(){
+ let pay =  _hours * 18.50;
+ pay = (pay * 0.105); //taxes :(
+ return pay;
+ }
 
 
 /*****************************
@@ -48,6 +51,8 @@ const AGE_FIELD = document.getElementById("ageField")
 let age = ageField.value;
     OUTPUT.innerHTML += ("<p>You are "+ age +"</p>")
  }
+
+calculatePay();
 
 writeLine('papyrusknighttruther');
 
