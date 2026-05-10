@@ -53,10 +53,8 @@ let age = ageField.value;
     OUTPUT.innerHTML += ("<p>You are "+ age +"</p>")
  }
 
- 
-
-
-calculatePay(pay, _hours);
+ let mondaypay = =calculatePay(8);
+ OUTPUT.innerHTML += ("<p> Your pay is $" + mondaypay +"</p>")
 
 writeLine(pay);
 
