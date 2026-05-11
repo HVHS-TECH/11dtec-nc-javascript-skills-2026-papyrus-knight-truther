@@ -24,7 +24,7 @@ let hours=20;
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>Your weekly pay is" + pay + "</h2>";
+OUTPUT.innerHTML += "<h2>Your weekly pay is $" + pay + "</h2>";
  }
 
 
@@ -43,7 +43,7 @@ const AGE_FIELD = document.getElementById("ageField")
 
 calculatePay(hours);
 
-let pay = calculatePay;
+let pay = calculatePay(8);
 
 function start(){
 const NAME_FIELD = document.getElementById("nameField")
