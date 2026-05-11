@@ -9,7 +9,7 @@ console.log("running t13_functions returns")
 let username = nameField.value;
 let year=2025;
 let age= ageField.value;
-let _hours=20;
+let hours=20;
 
 
 
@@ -18,13 +18,13 @@ let _hours=20;
   *************************/
 
  function calculatePay(){
- let pay =  _hours * 18.50;
+ let pay =  hours * 18.50;
  pay = (pay * 0.105); //taxes :(
  return pay;
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>Your weekly pay is" weeklyPay "</h2>";
+OUTPUT.innerHTML += "<h2>Your weekly pay is" + pay + "</h2>";
  }
 
 
@@ -35,26 +35,21 @@ OUTPUT.innerHTML += "<h2>Your weekly pay is" weeklyPay "</h2>";
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField")
-OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
 function getFormInputAge(){
 const AGE_FIELD = document.getElementById("ageField")
-OUTPUT.innerHTML = "<p>Your age is "+ age +"</p>";
 }
 
 function start(){
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
-    OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
+OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
  
 const AGE_FIELD = document.getElementById("ageField")
 let age = ageField.value;
     OUTPUT.innerHTML += ("<p>You are "+ age +"</p>")
  }
-
- let mondaypay = =calculatePay(8);
- OUTPUT.innerHTML += ("<p> Your pay is $" + mondaypay +"</p>")
 
 writeLine(pay);
 
