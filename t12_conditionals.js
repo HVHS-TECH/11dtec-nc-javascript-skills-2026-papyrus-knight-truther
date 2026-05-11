@@ -49,8 +49,9 @@ let age = ageField.value;
 if(age > 15 ){
     OUTPUT.innerHTML += ("<p>You are an unc</p>")
  }
-
- else ()}
+else
+OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
+}
 
 writeLine('papyrusknighttruther');
 
