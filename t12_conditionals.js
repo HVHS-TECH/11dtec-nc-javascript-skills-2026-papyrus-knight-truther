@@ -46,7 +46,8 @@ let username = nameField.value;
  
 const AGE_FIELD = document.getElementById("ageField")
 let age = ageField.value;
-    OUTPUT.innerHTML += ("<p>You are "+ age +"</p>")
+if(age > 15 ){
+    OUTPUT.innerHTML += ("<p>You are an unc</p>")
  }
 
 writeLine('papyrusknighttruther');
