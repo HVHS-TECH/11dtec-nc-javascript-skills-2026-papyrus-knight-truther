@@ -24,7 +24,7 @@ let _hours=20;
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>Your weekly pay is" _weeklyPay "</h2>";
+OUTPUT.innerHTML += "<h2>Your weekly pay is" weeklyPay "</h2>";
  }
 
 
