@@ -50,6 +50,8 @@ if(age > 15 ){
     OUTPUT.innerHTML += ("<p>You are an unc</p>")
  }
 
+ else ()}
+
 writeLine('papyrusknighttruther');
 
 
