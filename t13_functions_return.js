@@ -41,6 +41,7 @@ function getFormInputAge(){
 const AGE_FIELD = document.getElementById("ageField")
 }
 
+calculatePay()
 
 function start(){
 const NAME_FIELD = document.getElementById("nameField")
