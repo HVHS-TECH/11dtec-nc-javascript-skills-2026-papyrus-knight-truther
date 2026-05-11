@@ -31,12 +31,10 @@ OUTPUT.innerHTML += "<h2>WOAH ITS A FUNCTION </h2>";
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField")
-OUTPUT.innerHTML = "<p>Your name is "+ username +"</p>";
 }
 
 function getFormInputAge(){
 const AGE_FIELD = document.getElementById("ageField")
-OUTPUT.innerHTML = "<p>Your age is "+ age +"</p>";
 }
 
 function start(){
