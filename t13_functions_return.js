@@ -43,6 +43,8 @@ const AGE_FIELD = document.getElementById("ageField")
 
 calculatePay(hours);
 
+let pay = calculatePay;
+
 function start(){
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
