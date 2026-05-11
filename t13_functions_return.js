@@ -52,6 +52,7 @@ const AGE_FIELD = document.getElementById("ageField")
 let age = ageField.value;
 if(age > 15 ){
     OUTPUT.innerHTML += ("<p>You are an unc</p>")
+    OUTPUT.innerHTML += ("<p>You made $" + pay + "</p>")
  }
 else
 OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
