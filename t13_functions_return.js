@@ -17,7 +17,7 @@ let hours=20;
   Functions
   *************************/
 
- function calculatePay(){
+ function calculatePay(hours){
  let pay =  hours * 18.50;
  pay = (pay * 0.105); //taxes :(
  return pay;
@@ -41,6 +41,8 @@ function getFormInputAge(){
 const AGE_FIELD = document.getElementById("ageField")
 }
 
+calculatePay(hours);
+
 function start(){
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
@@ -55,7 +57,7 @@ else
 OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 }
 
-writeLine('papyrusknighttruther');
+writeLine(pay);
 
 
 
