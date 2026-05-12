@@ -10,6 +10,7 @@ let username = nameField.value;
 let year=2025;
 let age= ageField.value;
 let hours=20;
+let first3Abc = ["a", "b", "c"];
 
 
 
@@ -24,7 +25,7 @@ let hours=20;
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>Your weekly pay is $" + pay + "</h2>";
+OUTPUT.innerHTML += "<h2>The fisrt three letters in the alphabet are" + first3Abc + "</h2>";
  }
 
 
@@ -60,7 +61,7 @@ else
 OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 }
 
-writeLine(pay);
+writeLine(first3Abc);
 
 
 
