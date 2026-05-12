@@ -64,7 +64,7 @@ OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 writeLine(first3Abc);
 
 for(let beer=99; beer=1; beer--){
-    OUTPUT.innerHTML += ("<p>" + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
+    OUTPUT.innerHTML += ("<p>" + beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
 }
 
 
