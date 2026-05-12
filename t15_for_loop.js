@@ -49,7 +49,7 @@ let pay = calculatePay(8);
 function start(){
     
     for(let beer=5; beer>1; beer--){
-    console.log += ("<p>" + beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
+    console.log += ( beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
 }
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
