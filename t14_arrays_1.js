@@ -25,7 +25,7 @@ let first3Abc = ["a", "b", "c"];
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>The fisrt three letters in the alphabet are" + first3Abc + "</h2>";
+OUTPUT.innerHTML += "<h2>The fisrt three letters in the alphabet are " + first3Abc + "</h2>";
  }
 
 
