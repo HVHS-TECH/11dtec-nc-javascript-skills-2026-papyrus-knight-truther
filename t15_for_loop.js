@@ -47,6 +47,10 @@ calculatePay(hours);
 let pay = calculatePay(8);
 
 function start(){
+    
+    for(let beer=5; beer=1; beer--){
+    OUTPUT.innerHTML += ("<p>" + beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
+}
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
     OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
@@ -63,9 +67,7 @@ OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 
 writeLine(first3Abc);
 
-for(let beer=5; beer=1; beer--){
-    OUTPUT.innerHTML += ("<p>" + beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
-}
+
 
 
 
