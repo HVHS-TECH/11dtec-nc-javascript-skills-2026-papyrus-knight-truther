@@ -1,1 +1,75 @@
-/* Paste your code from the last task */
+/****************************
+Name of task:functions return
+****************************/
+
+console.log("running t13_functions returns")
+
+//variables
+
+let username = nameField.value;
+let year=2025;
+let age= ageField.value;
+let hours=20;
+let first3Abc = ["a", "b", "c"];
+
+
+
+/**************************
+  Functions
+  *************************/
+
+ function calculatePay(hours){
+ let pay =  hours * 18.50;
+ pay = (pay * 0.105); //taxes :(
+ return pay;
+ }
+
+ function writeLine(){
+OUTPUT.innerHTML += "<h2>The fisrt three letters in the alphabet are " + first3Abc + "</h2>";
+ }
+
+
+/*****************************
+ Main code
+ ****************************/
+
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+function getFormInput(){
+const NAME_FIELD = document.getElementById("nameField")
+}
+
+function getFormInputAge(){
+const AGE_FIELD = document.getElementById("ageField")
+}
+
+calculatePay(hours);
+
+let pay = calculatePay(8);
+
+function start(){
+const NAME_FIELD = document.getElementById("nameField")
+let username = nameField.value;
+    OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
+ 
+const AGE_FIELD = document.getElementById("ageField")
+let age = ageField.value;
+if(age > 15 ){
+    OUTPUT.innerHTML += ("<p>You are an unc</p>")
+    OUTPUT.innerHTML += ("<p>You made $" + pay + "</p>")
+ }
+else
+OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
+}
+
+writeLine(first3Abc);
+
+for(let beer=99; beer=1; beer--){
+    OUTPUT.innerHTML += ("<p>" + beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
+}
+
+
+
+
+
+
+ 
