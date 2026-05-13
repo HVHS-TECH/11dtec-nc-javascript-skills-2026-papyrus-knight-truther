@@ -55,6 +55,7 @@ function start(){
     console.log( beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
     OUTPUT.innerHTML += ("<p> Shopping list:"+shoppingList+"</p>")
 }
+
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
     OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
