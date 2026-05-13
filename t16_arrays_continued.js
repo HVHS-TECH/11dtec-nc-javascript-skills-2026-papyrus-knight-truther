@@ -53,9 +53,9 @@ function start(){
     
     for(let beer=5; beer>1; beer--){
     console.log( beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
-    OUTPUT.innerHTML += ("<p> Shopping list:"+shoppingList+"</p>")
+    
 }
-
+OUTPUT.innerHTML += ("<p> Shopping list:"+shoppingList+"</p>")
 const SHOPPING_FIELD = document.getElementById("shoppingField")
 shoppingList.push(shoppingField.value)
     OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
