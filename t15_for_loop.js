@@ -56,6 +56,10 @@ function start(){
     OUTPUT.innerHTML += ("<p> Shopping list:"+shoppingList+"</p>")
 }
 
+const SHOPPING_FIELD = document.getElementById("shoppingField")
+shoppingList.push(shoppingField.value)
+    OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
+
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
     OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
@@ -70,9 +74,7 @@ else
 OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 }
 
-const SHOPPING_FIELD = document.getElementById("shoppingField")
-shoppingList.push(shoppingField.value)
-    OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
+
 
 
 
