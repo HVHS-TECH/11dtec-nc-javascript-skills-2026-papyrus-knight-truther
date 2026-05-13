@@ -72,7 +72,7 @@ OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 
 const SHOPPING_FIELD = document.getElementById("shoppingField")
 shoppingList.push(shoppingField.value)
-    OUTPUT.innerHTML += ("<p>Shopping list: "+ shoppingList +"</p>")
+    OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
 
 
 writeLine(shoppingList);
