@@ -11,6 +11,7 @@ let year=2025;
 let age= ageField.value;
 let hours=20;
 let first3Abc = ["a", "b", "c"];
+let shoppingList = ["Eggs", "Milk"];
 
 
 
@@ -25,7 +26,7 @@ let first3Abc = ["a", "b", "c"];
  }
 
  function writeLine(){
-OUTPUT.innerHTML += "<h2>The fisrt three letters in the alphabet are " + first3Abc + "</h2>";
+OUTPUT.innerHTML += "<h2>Shopping list: " + shoppingList +  "</h2>";
  }
 
 
@@ -40,6 +41,10 @@ const NAME_FIELD = document.getElementById("nameField")
 
 function getFormInputAge(){
 const AGE_FIELD = document.getElementById("ageField")
+}
+
+function getFormInput(){
+const SHOPPING_FIELD = document.getElementById("shoppingField")
 }
 
 calculatePay(hours);
@@ -65,7 +70,12 @@ else
 OUTPUT.innerHTML += ("<p>You are a teeny child infant</p>")
 }
 
-writeLine(first3Abc);
+const SHOPPING_FIELD = document.getElementById("shoppingField")
+shoppingList.push(shoppingField.value)
+    OUTPUT.innerHTML += ("<p>Shopping list: "+ shoppingList +"</p>")
+
+
+writeLine(shoppingList);
 
 
 
