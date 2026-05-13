@@ -25,9 +25,7 @@ let shoppingList = ["Eggs", "Milk"];
  return pay;
  }
 
- function writeLine(){
-OUTPUT.innerHTML += "<h2>Shopping list: " + shoppingList +  "</h2>";
- }
+
 
 
 /*****************************
@@ -43,7 +41,7 @@ function getFormInputAge(){
 const AGE_FIELD = document.getElementById("ageField")
 }
 
-function getFormInput(){
+function getFormInputShopping(){
 const SHOPPING_FIELD = document.getElementById("shoppingField")
 }
 
@@ -55,6 +53,7 @@ function start(){
     
     for(let beer=5; beer>1; beer--){
     console.log( beer + " bottles of beer on the wall! " + beer + " bottles of beer on the wall, " + beer + " bottles of beer! Take one down pass it around")
+    OUTPUT.innerHTML += ("<p> Shopping list:"+shoppingList+"</p>")
 }
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
@@ -75,7 +74,7 @@ shoppingList.push(shoppingField.value)
     OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
 
 
-writeLine(shoppingList);
+
 
 
 
