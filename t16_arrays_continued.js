@@ -63,6 +63,10 @@ shoppingList.push(shoppingField.value)
 const NAME_FIELD = document.getElementById("nameField")
 let username = nameField.value;
     OUTPUT.innerHTML += ("<p>Hello "+ username +"</p>")
+    if(NAME_FIELD.checkValidity()=== false) {
+        OUTPUT.innerHTML = "please fill out this form"
+    }
+    else
  
 const AGE_FIELD = document.getElementById("ageField")
 let age = ageField.value;
