@@ -48,7 +48,9 @@ const SHOPPING_FIELD = document.getElementById("shoppingField")
 }
 
 function clearField(){
- let nameField, ageField, shoppingField = null;
+ nameField.value = null;
+ ageField.value = null;
+ shoppingField.value = null;
  }
 
 calculatePay(hours);
