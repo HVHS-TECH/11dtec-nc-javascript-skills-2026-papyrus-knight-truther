@@ -12,6 +12,8 @@ let age=15;
 let money=10;
 let birthYear= year - age;
 let halfMoney= money / 2;
+//**let item="chips";
+//**let price=3.50;
 
 
 /**************************
@@ -25,6 +27,10 @@ OUTPUT.innerHTML += ("In 10 years you will be " + (_age + 10) + " years old. ")
 OUTPUT.innerHTML += ("You have " + _money + " dollars. ")
 OUTPUT.innerHTML += ("You spend half of your money, now you have " + _halfMoney)
 OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " dollars") 
+OUTPUT.innerHTML += "<br>";
+ }
+ function writePrice(_item, _price){
+  OUTPUT.innerHTML += (_item + " costs " + _price)
  }
 
 
@@ -33,6 +39,10 @@ OUTPUT.innerHTML += (" Then you get $3, now you have " + (_halfMoney + 3) + " do
  ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 writeLine("papyrusknighttruther", 2025, 15, 10, year - age, money / 2);
+document.createElement("br");
+writePrice(" A chocolate bar", 4);
+writePrice(" a bag of chips", 3);
+writePrice(" a drink", 2.50);
 
 
 

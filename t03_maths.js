@@ -1,7 +1,7 @@
 /****************************
 Name of task:maths
 ****************************/
-
+console.log("Running t03.js")
 //variables
 let username ="papyrusknighttruther" ;
 let year=2025;

@@ -1,6 +1,7 @@
 /****************************
 Name of task:Variables
 ****************************/
+console.log("Running t02.js")
 
 //variables
 let username ="papyrusknighttruther" ;
